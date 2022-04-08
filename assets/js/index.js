@@ -1,6 +1,31 @@
 
-let screen= document.querySelector("[data-screen]");
-let count= +screen.textContent;
+//DOM elements creation
+let counterBody= document.createElement("div");
+counterBody.className="counter-body";
+document.body.append(counterBody);
+
+let increase= document.createElement("button");
+increase.className= "plus";
+increase.textContent="+";
+counterBody.append(increase);
+
+let decrease= document.createElement("button");
+decrease.className="minus";
+decrease.textContent= "-";
+counterBody.append(decrease);
+
+let screen= document.createElement("div");
+screen.className="screen";
+counterBody.append(screen);
+
+
+//Counter implementation
+let count= 0;
+screen.textContent= count;
+
+increase.dataset.button="plus";
+decrease.dataset.button="minus";
+
 document.addEventListener("click", function(event){
 
   if(!event.target.dataset.button) return;
