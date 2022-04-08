@@ -12,14 +12,14 @@ Final project of the "Javascript Basics" module of the "Full Stack Development" 
 
 Assignment: Develop a JavaScript application that allows the user to increase and decrease the value of a counter.
 
-![](assets/img/read-me-screenshoot.png)
+![](assets/img/read-me-screenshoot.PNG)
 
 ## Technologies
 
 Project created with:
-*HTML5
-*CSS3
-*JavaScript
+* HTML5
+* CSS3
+* JavaScript
 
 ## How to use it
 To using the counter go to the [github page](https://nordine-a.github.io/Counter/)
