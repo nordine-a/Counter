@@ -14,17 +14,17 @@ Assignment: Develop a JavaScript application that allows the user to increase an
 
 ![](assets/img/read-me-screenshoot.png)
 
-##Technologies
+## Technologies
 
 Project created with:
 *HTML5
 *CSS3
 *JavaScript
 
-##How to use it
+## How to use it
 To using the counter go to the [github page](https://nordine-a.github.io/Counter/)
 
-##License
+## License
 No License
 
 ## Contact Informations
