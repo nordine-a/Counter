@@ -70,6 +70,19 @@ body {
     padding-top: 5px;
     line-height: 30px;
     left: -3px;
+    cursor: pointer;
+    font-size: inherit;
+    color: inherit;
+    font-weight: inherit;
+
+    &:hover {
+      background-color: #861E3F;
+      transform: scale(1.1);
+    }
+
+    &:active {
+      transform: scale(1);
+    }
   }
 
   .plus {
