@@ -1,11 +1,11 @@
 # Counter - Javascript Basics Project - Start2Impact
 
 ## Table of contents
-1. [General Info] (#general-info)
-2. [Technologies] (#technologies)
-3. [How to use it] (#how-to-use-it)
-4. [License] (#License)
-5. [Contact informations] (#contact-informations)
+1. [General Info](#general-info)
+2. [Technologies](#technologies)
+3. [How to use it](#how-to-use-it)
+4. [License](#License)
+5. [Contact informations](#contact-informations)
 ## General info
 Final project of the "Javascript Basics" module of the "Full Stack Development" course - Start2Impact.
 
