@@ -1,23 +1,22 @@
 
 let screen= document.querySelector("[data-screen]");
 let count= +screen.textContent;
-console.log(count);
 document.addEventListener("click", function(event){
 
   if(!event.target.dataset.button) return;
-  else if (event.target.dataset.button=="plus") addOneToScreen();
-  else decreaseOneFromScreen();
+  else if (event.target.dataset.button=="plus") addOne();
+  else decreaseOne();
 
   changeCount();
 })
 
 
-function addOneToScreen(){
+function addOne(){
   count++;
 }
 
 
-function decreaseOneFromScreen(){
+function decreaseOne(){
   if(count>0) count--;
 }
 

@@ -74,15 +74,11 @@ body {
     font-size: inherit;
     color: inherit;
     font-weight: inherit;
-
     &:hover {
       background-color: #861E3F;
-      transform: scale(1.1);
+
     }
 
-    &:active {
-      transform: scale(1);
-    }
   }
 
   .plus {
@@ -111,6 +107,14 @@ body {
         justify-content: center;
         padding-top: 0;
         border-radius: 15px 0 0 0;
+
+
+        &:hover{
+          transform: scale(1.1);
+        }
+        &:active {
+          transform: scale(1);
+        }
       }
 
       .minus {
@@ -118,7 +122,4 @@ body {
         right: -3px;
       }
   }
-
-
-
 }
